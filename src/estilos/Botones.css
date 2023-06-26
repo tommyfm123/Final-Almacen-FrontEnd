@@ -1,16 +1,12 @@
 .BotonAgregar, .BotonLimpiar /*, .BotonEditar, .BotonEliminar*/ {
+    width: 110px;  
     margin: 10px;
-    width: 110px;
+    padding: 10px;
+    font-size: .85rem;
+    border-radius: 8px;
     border: none;
     color: white;
-    border-radius: 8px;
-    padding: 10px;
     cursor: pointer;
-    font-size: .85rem;
-
-    
-    
-    
   }
 
   ion-icon {
@@ -22,7 +18,6 @@
   
   ion-icon:hover{
     transform: scale(1.1);
-
   }
 
   

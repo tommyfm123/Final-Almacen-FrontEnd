@@ -1,27 +1,28 @@
 .TituloTabla{
-  text-align: center;
-  color:#465879 ;
   font-size: 2rem;
+  color:#465879 ;
+  text-align: center;
+  user-select: none;
 }
 
 /* lineas */
 
 .Tabla {
-    border-collapse: collapse;
-    text-align: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
+    text-align: center;
     border-radius: 10px;
+    border-collapse: collapse;
     overflow: hidden;
     background: linear-gradient(to bottom, #ffffff, #f2f2f2); /* Cambia los colores según tus preferencias */
-    margin-bottom: 100px;
   }
   
   .Tabla th,
   .Tabla td {
-    border-right: 1px solid #ddd;
     padding: 10px;
+    border-right: 1px solid #ddd;
   }
   
   .Tabla th {
@@ -37,8 +38,5 @@
   .ColTabla td:last-child {
     border-right: none;
   }
-  
-  
-
   
   

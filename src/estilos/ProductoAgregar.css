@@ -1,7 +1,9 @@
 .form{
-    padding: 20px;
     display: flex; 
+    padding: 20px;
     flex-direction: column;
-    background-color: red;
     align-items: flex-start;
+    background-color: red;
 }
+ 
+    

@@ -7,27 +7,28 @@
 }
 /* estilo general del form */
 .form{
-    border-radius: 20px;
+    
+    min-width: 320px;
     width: 40%;
     margin-left: auto; /* esto hace que se quede en el medio el form */
     margin-right: auto;
-    /* align-items: center; */
-
+    border-radius: 20px;
+    /*Efecto Glass*/
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 
 
 /* estilos de los inputs  */
 .inputs{
+    height: 5vh;
+    width: 90%;
     padding-left: 20px;
     border-radius: 10px;
     border: none;
-    height: 5vh;
-    width: 90%;
     margin-left: auto; /* esto hace que se quede en el medio el form */
     margin-right: auto;
 }
@@ -48,10 +49,9 @@
   }
 
   label{
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
     padding: 10px;
-    font-size: 20px;
-
   }
   

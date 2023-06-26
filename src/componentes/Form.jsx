@@ -96,7 +96,7 @@ const Form = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
         <input type="text"  placeholder='Ingresar Precio Unitario' className='inputs' id="unitPrice" name="unitPrice" value={form.unitPrice} onChange={handleChange} />
 
         <div className='ContenedorBotones'>
-          <button className='BotonAgregar' type="submit">{dataToEdit ? "Aceptar" : "Agregar"}</button>            {/* si DataToEdit tiene valor, se devuelve Aceptar como resultado, de lo contrario Agregar */}
+          <button className='BotonAgregar' type="submit">{dataToEdit ? "Aceptar" : "Agregar"}</button>   {/* si DataToEdit tiene valor, se devuelve Aceptar como resultado, de lo contrario Agregar */}
           <button className='BotonLimpiar' type="reset" onClick={handleReset}>Limpiar</button>
         </div>
       </form>
