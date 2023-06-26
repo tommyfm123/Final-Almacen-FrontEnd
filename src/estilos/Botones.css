@@ -1,0 +1,63 @@
+.BotonAgregar, .BotonLimpiar /*, .BotonEditar, .BotonEliminar*/ {
+    margin: 10px;
+    width: 110px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: .85rem;
+
+    
+    
+    
+  }
+
+  ion-icon {
+    font-size: 1.5rem;
+    padding-right: 18px; 
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+  
+  ion-icon:hover{
+    transform: scale(1.1);
+
+  }
+
+  
+/* hover botones */
+
+  .BotonAgregar {
+    background-color: #069642cc; /* Agrega un canal alfa para la transparencia */
+    
+  }
+  
+  .BotonAgregar:hover {
+    background-color: rgba(14, 172, 80, 0.8);
+  }
+  
+  .BotonLimpiar {
+    background-color: rgba(228, 43, 43, 0.8);
+  }
+  
+  .BotonLimpiar:hover {
+    background-color: rgba(207, 74, 74, 0.8);
+  }
+  
+  /* .BotonEditar {
+    background-color: rgba(7, 123, 218, 0.8);
+  }
+  
+  .BotonEditar:hover {
+    background-color: rgba(43, 139, 218, 0.8);
+  }
+  
+  .BotonEliminar {
+    background-color: rgba(228, 43, 43, 0.8);
+  }
+  
+  .BotonEliminar:hover {
+    background-color: rgba(226, 69, 69, 0.8);
+  } */
+  
