@@ -11,4 +11,4 @@ function App() {
 
 export default App;
 
-// CrudApp es el componente principal
+// TableApp es la app
