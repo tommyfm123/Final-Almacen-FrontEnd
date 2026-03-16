@@ -7,5 +7,3 @@
 ## Una vez hecho eso , abrir otra terminal dentro del archivo y ejecutar el codigo. Usar el siguiente comando
 
   npm start
-# Final-Almacen-FrontEnd
-# Final-Almacen-FrontEnd
